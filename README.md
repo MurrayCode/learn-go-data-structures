@@ -1,4 +1,4 @@
-# Learn Go with Basic Data Structures and tests
+# Learn Go with Basic Data Structures and Tests
 
 Article: Coming Soon
 
