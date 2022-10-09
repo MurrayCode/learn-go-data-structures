@@ -22,8 +22,8 @@ func (l *LinkedList) PrintList(n *Node) {
 }
 
 func (l *LinkedList) Prepend(n *Node) {
-	second := l.Head
+	old := l.Head
 	l.Head = n
-	l.Head.next = second
+	l.Head.next = old
 	l.length++
 }
