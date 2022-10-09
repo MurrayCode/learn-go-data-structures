@@ -1,4 +1,6 @@
-# Learn Basic Data Structures With Go
+# Learn Go with Basic Data Structures and tests
 
-Article: link here
+Article: Coming Soon
+
+
 
