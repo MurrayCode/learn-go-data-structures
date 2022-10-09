@@ -1,8 +1,9 @@
 package main
 
 import (
-	"example/GoDataStructures/tree"
 	"fmt"
+
+	"github.com/MurrayCode/learn-go-data-structures/tree"
 )
 
 func main() {
