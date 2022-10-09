@@ -4,7 +4,7 @@ import "fmt"
 
 type Node struct {
 	Data string
-	next *Node
+	Next *Node
 }
 
 type LinkedList struct {
@@ -14,8 +14,8 @@ type LinkedList struct {
 
 func (l *LinkedList) PrintList(n *Node) {
 	fmt.Println(n.Data)
-	if n.next != nil {
-		l.PrintList(n.next)
+	if n.Next != nil {
+		l.PrintList(n.Next)
 	} else {
 		return
 	}
@@ -24,6 +24,6 @@ func (l *LinkedList) PrintList(n *Node) {
 func (l *LinkedList) Prepend(n *Node) {
 	old := l.Head
 	l.Head = n
-	l.Head.next = old
+	l.Head.Next = old
 	l.length++
 }
